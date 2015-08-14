@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Hind:400,700);
+
+html {font-size: 0.875em;border-top:4px solid #6cc5fa;}
+
+body {
+  background-color: white;
+  font-family: 'Hind', serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+.heading{margin-top: 100px}
+.subheading{text-transform: uppercase;font-size: 1.414em;margin-bottom: 1em}
+.container{
+	text-align: center;
+	width: 100%;
+}
+.container input{
+	width: 38%;
+	height: 35px;
+	border: 1px solid #ccc;
+}
+.search{font-family: 'Hind', serif;}
+footer{
+	text-align: center;
+	font-size: 12px;
+	position: fixed;
+	bottom: 0;
+	width:100%;
+	left: 0;
+	right: 0;
+	margin-bottom: 20px;
+
+}
