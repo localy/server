@@ -32,16 +32,23 @@ h4 {font-size: 1.414em;}
 small, .font_small {font-size: 0.707em;}
 .heading{margin-top: 100px}
 .subheading{text-transform: uppercase;font-size: 1.414em;margin-bottom: 1em}
-.container{
-	text-align: center;
-	width: 100%;
-}
 .container input{
-	width: 38%;
 	height: 35px;
 	border: 1px solid #ccc;
+	box-shadow: inset 0px 6px 3px -6px rgba(0,0,0,0.2);
+    -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+    outline: 0;
+  	border-radius: 0;
+  	height: 44px;
+  	padding: 10px;
+  	vertical-align: middle;
+  	position: relative;
 }
-.search{font-family: 'Hind', serif;}
+.text-center{text-align: center}
+.search{font-family: 'Hind', serif;}.resheader{margin-top:0;}
+.list-group-item{padding-left: 0;border:0;}.list-group-item:first-child{ margin-top: 20px;}
+.list-group-item img{border-radius: 0}.searching-loading{height:50px}
 footer{
 	text-align: center;
 	font-size: 12px;
@@ -52,4 +59,12 @@ footer{
 	right: 0;
 	margin-bottom: 20px;
 
+}
+#map_wrapper {
+    height: 400px;  margin-top: 20px;
+}
+
+#map_canvas {
+    width: 100%;
+    height: 100%;
 }
